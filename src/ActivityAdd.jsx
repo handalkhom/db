@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "./Navigation";
+import DescriptionNav from "./DescriptionNav";
 import { Button, ConfigProvider, DatePicker, Form, Input, Select } from "antd";
 
 const { TextArea } = Input;
@@ -7,7 +7,7 @@ const { TextArea } = Input;
 const ActivityAdd = () => {
   return (
     <div className="appBg">
-      <Navigation />
+      <DescriptionNav />
       {/* <div className="activity-container"> */}
       <p>
         <strong>Tambah Aktivitas</strong>

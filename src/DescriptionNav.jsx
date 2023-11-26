@@ -5,12 +5,12 @@ import { Button } from "antd";
 const DescriptionNav = () => {
   return (
     <div className="navigation">
-      <Button>
+      <Button href="/">
         <ArrowLeftOutlined />
       </Button>
-      <Button>
+      {/* <Button>
         <PushpinOutlined />
-      </Button>
+      </Button> */}
     </div>
   );
 };

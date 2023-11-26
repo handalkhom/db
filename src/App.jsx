@@ -3,6 +3,7 @@ import Login from "./Login";
 import Register from "./Register";
 import ActivityAdd from "./ActivityAdd";
 import ActivityView from "./ActivityView";
+import ActivityChartView from "./ActivityChartView";
 import ActivityDescription from "./ActivityDescription";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "./App.css";
@@ -16,6 +17,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/activity-add" element={<ActivityAdd />} />
+          <Route path="/activity-chart" element={<ActivityChartView />} />
           <Route path="/activity-desc" element={<ActivityDescription />} />
         </Routes>
       </BrowserRouter>

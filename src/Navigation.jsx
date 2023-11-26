@@ -11,7 +11,7 @@ const items = [
     type: "divider",
   },
   {
-    label: <a href="./artikel">Artikel</a>,
+    label: <a href="./chart">Grafik</a>,
     key: "2",
   },
 ];
