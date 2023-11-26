@@ -1,0 +1,98 @@
+/* Background color : #ffe6d4 */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+#root {
+  font-family: "Quicksand", sans-serif;
+}
+
+.appBg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.appBg p {
+  margin-top: 20px;
+}
+
+.login-form,
+.register-form img {
+  width: 250px;
+  padding-bottom: 30px;
+}
+
+.login-form,
+.register-form {
+  background-color: rgba(255, 255, 255, 0.33);
+  box-shadow: 0px 8px 22px 0;
+  padding: 16px 16px 16px 16px;
+  border-radius: 16px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.login-form-button,
+.register-form-button,
+.activity-btn,
+.add-activity-button {
+  padding: 2px 13px;
+  margin: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  /* background-color: #ffe6d4; */
+  box-shadow: 0px 2.5px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  max-width: 450px;
+  position: fixed;
+  top: 5px;
+}
+
+.date {
+  background-color: rgba(255, 255, 255, 0.33);
+  box-shadow: 0px 2.5px 2px 1px rgba(0, 0, 0, 0.3);
+  padding: 6px 6px;
+  border-radius: 9px;
+}
+
+.activity-container {
+  width: 100vw;
+  max-width: 430px;
+}
+
+.activity-list-wrapper {
+  background-color: #ffe6d4;
+  box-shadow: 0px 2.5px 2px 1px rgba(0, 0, 0, 0.3);
+  padding: 6px 6px;
+  border-radius: 9px;
+}
+.activity-description-wrapper {
+  background-color: #ffe6d4;
+  box-shadow: 0px 2.5px 2px 1px rgba(0, 0, 0, 0.3);
+  padding: 6px 6px;
+  border-radius: 9px;
+}
+
+.activity-list-wrapper ol li {
+  list-style: none;
+  background-color: white;
+  margin: 5px;
+  padding: 3px;
+}
+
+.btn-wrapper {
+  margin: 13px;
+}
+
+.btn-wrapper .activity-btn {
+  margin: 8px;
+}
