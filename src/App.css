@@ -98,7 +98,12 @@
   margin: 8px;
 }
 
+.chart-wrapper {
+  margin-top: 30px;
+  max-width: 430px;
+}
+
 .chart-wrapper HighchartsReact {
   margin-top: 30px;
-  max-width: 480px;
+  max-width: 430px;
 }
