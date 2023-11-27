@@ -1,3 +1,4 @@
+// Ga dipake
 import React from "react";
 import CalendarModal from "./CalendarModal";
 import { Button, ConfigProvider, Space } from "antd";
@@ -22,11 +23,7 @@ const ActivityBtn = () => {
           {/* <Button className="activity-btn">
           </Button> */}
           <CalendarModal />
-          <Button
-            type="primary"
-            className="activity-btn"
-            onClick={() => navigate("activity-add")}
-          >
+          <Button type="primary" className="activity-btn" onClick={() => navigate("activity-add")}>
             Tambah Aktivitas
           </Button>
         </Space>

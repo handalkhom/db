@@ -1,3 +1,4 @@
+// Ga dipake
 import React from "react";
 import DescriptionNav from "./DescriptionNav";
 import { DeleteOutlined, EditOutlined } from "@ant-design/icons";
@@ -10,7 +11,7 @@ const ActivityDescription = () => {
     <div className="appBg">
       <DescriptionNav />
       <p>
-        <strong>07.00 Solat</strong>
+        <strong>07.00</strong>
       </p>
       <div className="activity-description-wrapper">
         <Form>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const CurrentDate = () => {
-  return <div className="date">17 Agustus 2023</div>;
+const CurrentDate = (props) => {
+  return <div className="date">{props.tanggal}</div>;
 };
 export default CurrentDate;

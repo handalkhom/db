@@ -1,9 +1,10 @@
+// Ga dipake
 import React from "react";
 
-const ActivityList = () => {
+const ActivityList = (props) => {
   return (
     <div className="activity-container">
-      <p>Positive</p>
+      <p>{props.kategori}</p>
       <div className="activity-list-wrapper">
         <ol>
           <li>07.00 Solat</li>
