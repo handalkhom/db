@@ -11,7 +11,7 @@ const items = [
     type: "divider",
   },
   {
-    label: <a href="./chart">Grafik</a>,
+    label: <a href="./activity-chart">Grafik</a>,
     key: "2",
   },
 ];

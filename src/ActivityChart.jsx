@@ -1,37 +1,38 @@
 import React from "react";
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-} from "chart.js";
-import { Line } from "react-chartjs-2";
-// import faker from "faker";
+import Highcharts from "highcharts";
+import HighchartsReact from "highcharts-react-official";
 
+const options = {
+  title: {
+    text: "Grafik Aktivitas ",
+  },
+  xAxis: {
+    categories: [
+      "Senin",
+      "Selasa",
+      "Rabu",
+      "Kamis",
+      "Jumat",
+      "Sabtu",
+      "Minggu",
+    ],
+  },
+  series: [
+    {
+      data: [1, 2, 3, 4, 5, 6, 7],
+      name: "Positive",
+    },
+    {
+      data: [6, 3, 4, 2, 6, 2, 3],
+      name: "Negative",
+    },
+  ],
+};
 const ActivityChart = () => {
   return (
-    <Line
-      data={{
-        labels: [
-          "Senin",
-          "Selasa",
-          "Rabu",
-          "Kamis",
-          "Jumat",
-          "Sabtu",
-          "Minggu",
-        ],
-        datasets: [
-          {
-            data: [2, 4, 1, 3, 7, 3, 6],
-          },
-        ],
-      }}
-    ></Line>
+    <div className="chart-wrapper">
+      <HighchartsReact highcharts={Highcharts} options={options} />
+    </div>
   );
 };
 export default ActivityChart;
