@@ -1,6 +1,14 @@
 import React from "react";
 import DescriptionNav from "./DescriptionNav";
-import { Button, ConfigProvider, TimePicker, Form, Input, Select } from "antd";
+import {
+  Button,
+  ConfigProvider,
+  TimePicker,
+  Form,
+  Input,
+  Select,
+  DatePicker,
+} from "antd";
 
 const { TextArea } = Input;
 const format = "HH:mm";
@@ -15,6 +23,10 @@ const ActivityAdd = () => {
       </p>
       <div className="activity-list-wrapper">
         <Form>
+          <Form.Item label="Tanggal">
+            <DatePicker />
+          </Form.Item>
+
           <Form.Item label="Waktu">
             <TimePicker format={format} />
           </Form.Item>
